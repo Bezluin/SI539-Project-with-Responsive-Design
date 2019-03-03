@@ -21,23 +21,37 @@
     justify-content: center;
   }
 
-  li{
+  nav ul li{
   	text-decoration: none;
   	display:inline;
   	background-color: #3D3D3D;
   	color: black;
   }
 
-  li a{
+  nav ul li a{
     display: block;
     width: 200px;
     background-color: #3D3D3D;
     color: white;
   }
 
-  li a:hover {
+  nav ul li a:hover {
     background-color: black;
     color: #F0FFFF;
+  }
+
+  /* CSS for log in / sign up */
+  .login_signup ul {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: center;
+  }
+
+  .login_signup ul li {
+    text-decoration: underline;
+    display: inline;
+    background-color: #515200;
+    color: #FFFFB8;
   }
 
   /* CSS code for skiplink was referenced from https://accessibility.oit.ncsu.edu/it-accessibility-at-nc-state/developers/accessibility-handbook/mouse-and-keyboard-events/skip-to-main-content/ */
@@ -153,23 +167,37 @@
     justify-content: center;
   }
 
-  li{
+  nav ul li{
     text-decoration: none;
     display:inline;
     background-color: #3D3D3D;
     color: black;
   }
 
-  li a{
+  nav ul li a{
     display: block;
     width: 200px;
     background-color: #3D3D3D;
     color: white;
   }
 
-  li a:hover {
+  nav ul li a:hover {
     background-color: black;
     color: #F0FFFF;
+  }
+
+  /* CSS for log in / sign up */
+  .login_signup ul {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: center;
+  }
+
+  .login_signup ul li {
+    text-decoration: underline;
+    display: inline;
+    background-color: #515200;
+    color: #FFFFB8;
   }
 
   /* CSS code for skiplink was referenced from https://accessibility.oit.ncsu.edu/it-accessibility-at-nc-state/developers/accessibility-handbook/mouse-and-keyboard-events/skip-to-main-content/ */
@@ -214,7 +242,7 @@
 
   .gallery{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-gap: 1rem;
     justify-content: center;
   }
@@ -285,23 +313,37 @@
     justify-content: center;
   }
 
-  li{
+  nav ul li{
     text-decoration: none;
     display:inline;
     background-color: #3D3D3D;
     color: black;
   }
 
-  li a{
+  nav ul li a{
     display: block;
     width: 200px;
     background-color: #3D3D3D;
     color: white;
   }
 
-  li a:hover {
+  nav ul li a:hover {
     background-color: black;
     color: #F0FFFF;
+  }
+
+  /* CSS for log in / sign up */
+  .login_signup ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+  }
+
+  .login_signup ul li {
+    text-decoration: underline;
+    display: inline;
+    background-color: #515200;
+    color: #FFFFB8;
   }
 
   /* CSS code for skiplink was referenced from https://accessibility.oit.ncsu.edu/it-accessibility-at-nc-state/developers/accessibility-handbook/mouse-and-keyboard-events/skip-to-main-content/ */
@@ -346,7 +388,7 @@
 
   .gallery{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     grid-gap: 1rem;
     justify-content: center;
   }
